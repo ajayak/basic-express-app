@@ -9,7 +9,8 @@ import bodyParser = require('body-parser');
 import * as nodeMailer from 'nodemailer';
 
 import * as routes from './routes/index';
-import * as users from './routes/users';
+import * as about from './routes/about';
+import * as contact from './routes/contact';
 
 var app = express();
 
@@ -27,7 +28,8 @@ app.use(express.static(path.join(__dirname,'bower_components')));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
-app.use('/users', users);
+app.use('/about', about);
+app.use('/contact', contact);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

@@ -2,9 +2,9 @@ import * as express from 'express';
 
 var router = express.Router();
 
-/* GET home page. */
+/* GET About page. */
 router.get('/', (req, res, next) => {
-  res.render('index', { title: 'home' });
+  res.render('about', { title: 'about' });
 });
 
 export = router;
