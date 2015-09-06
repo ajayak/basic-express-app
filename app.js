@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var app = express();
-// view engine setup
+// view e   ngine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 // uncomment after placing your favicon inB /public

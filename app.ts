@@ -6,13 +6,14 @@ import favicon = require('serve-favicon');
 import logger = require('morgan');
 import cookieParser = require('cookie-parser');
 import bodyParser = require('body-parser');
+import * as nodeMailer from 'nodemailer';
 
 import * as routes from './routes/index';
 import * as users from './routes/users';
 
 var app = express();
 
-// view engine setup
+// view e   ngine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 

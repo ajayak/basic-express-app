@@ -28,6 +28,18 @@
     },
     "mime/mime.d.ts": {
       "commit": "bb051830df88f5a55dcf06b7fe85bf6b62cc97f2"
+    },
+    "nodemailer/nodemailer.d.ts": {
+      "commit": "bb051830df88f5a55dcf06b7fe85bf6b62cc97f2"
+    },
+    "nodemailer-direct-transport/nodemailer-direct-transport.d.ts": {
+      "commit": "bb051830df88f5a55dcf06b7fe85bf6b62cc97f2"
+    },
+    "nodemailer-smtp-transport/nodemailer-smtp-transport.d.ts": {
+      "commit": "bb051830df88f5a55dcf06b7fe85bf6b62cc97f2"
+    },
+    "nodemailer/nodemailer-types.d.ts": {
+      "commit": "bb051830df88f5a55dcf06b7fe85bf6b62cc97f2"
     }
   }
 }
