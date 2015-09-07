@@ -1,4 +1,4 @@
-# basic-express-app
+# basic-ts-express-app
 Basic POC node app using typescript, express framework and nodemailer to send email from contact form.
 
 ## Clone Project
